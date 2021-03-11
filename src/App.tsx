@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import icon from '../assets/icon.svg';
 import './App.global.css';
+import Home from './Home'
 
 const Hello = () => {
   return (
@@ -10,7 +11,6 @@ const Hello = () => {
         <img width="200px" alt="icon" src={icon} />
       </div>
       <h1>electron-react-boilerplate</h1>
-
       <div className="Hello">
         <a
           href="https://electron-react-boilerplate.js.org/"
@@ -45,7 +45,7 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={Hello} />
+        <Route path="/" component={Home} />
       </Switch>
     </Router>
   );
