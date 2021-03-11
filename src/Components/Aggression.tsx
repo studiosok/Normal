@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const Aggression = () => {
   return (
-    <div className="">
+    <div className="Container">
+      <div className="Main">
       <h2>"Normal" Aggression</h2>
       <div className="Main">
         <p>
@@ -14,6 +15,7 @@ const Aggression = () => {
       </div>
       <div><p>So...what's normal?</p></div>
 
+    </div>
     </div>
   )
 
