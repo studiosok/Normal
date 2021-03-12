@@ -14,6 +14,10 @@ const HomeMenu = () => {
             Training
           </Link>{' '}
           <br />
+          <Link to="/language" className="navLink">
+            Language
+          </Link>{' '}
+          <br />
         </div>
       </div>
     </div>
