@@ -76,6 +76,13 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   height: 800px;
+  width: 500px;
+  justify-content: center;
+}
+
+#topBottomMargin {
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .navbarContainer {
@@ -97,6 +104,35 @@ a:hover {
 
 .scrollMenu {
   height: 30px;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.quizBody {
+  height: 500px;
+  width: 450px;
+  border-radius: 10px;
+  background-color: #d8dcd8;
+  border: 1px solid #850a7d;
+  position: absolute;
+}
+
+.quizQuestion {
+  height: 20px;
+
+}
+
+.quizOptions {
+  height: 100px;
+}
+
+.quizImage {
+  height: 50px;
+  width: auto;
+}
+
+.quizResources {
+  height: 50px;
   overflow-y: scroll;
   white-space: nowrap;
 }
