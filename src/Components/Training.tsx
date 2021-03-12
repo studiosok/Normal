@@ -1,13 +1,13 @@
 import React from 'react';
-import BehaviorMenu from './Behavior/BehaviorMenu'
+import TrainingMenu from './Training/TrainingMenu'
 
-const Behavior = () => {
+const Training = () => {
   return (
     <div className="Container">
       <div className="Main">
-      <h1>Behavior</h1>
+      <h1>Training</h1>
       <div>
-        <BehaviorMenu />
+        <TrainingMenu />
       </div>
     </div>
     </div>
@@ -15,4 +15,4 @@ const Behavior = () => {
 
 }
 
-export default Behavior
+export default Training
