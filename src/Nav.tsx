@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <div className="navbarContainer">
       <Link to="/home">
-        <button type="button">Home</button>
+        <button type="button">| <span>Home</span> |</button>
       </Link>
     </div>
   )
