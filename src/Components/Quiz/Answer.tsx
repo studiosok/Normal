@@ -1,18 +1,24 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
 
+const Answer = (props: { data: any }) => {
+  const data = props.data;
+  let options = Array.from(data[0].answerOptions);
 
-const Answer = () => {
+  options = options.map((option) => {
+    return option;
+  });
+
   return (
     <div className="quizAnswer">
-      {}
+      {options.map((option) => {
+        return (
+          <ol>
+            <li key={option.id}>{`${Object.entries(option)}`}</li>
+          </ol>
+        );
+      })}
     </div>
+  );
+};
 
-  )
-}
-
-// Answer.propTypes = {
-//   content: PropTypes.string.isRequired
-// }
-
-export default Answer
+export default Answer;

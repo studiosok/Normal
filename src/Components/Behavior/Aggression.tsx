@@ -1,23 +1,23 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Quiz from '../Quiz/QuizBody';
 
-const Aggression = () => {
+const Aggression = (props) => {
   return (
     <div className="Container">
-      <div className="Main">
-      <h2>"Normal" Aggression</h2>
-      <div className="Main">
+      <div id="topBottomMargin">
+        <h3>Normal Aggression</h3>
         <p>
-          Most dogs are normal. For real.  All dogs
-           display aggression. Very few dogs display <em>abnormal</em> aggression.
+          Most dogs are normal. For real. All dogs display aggression. Very few
+          dogs display <em>abnormal</em> aggression.
         </p>
       </div>
-      <div><p>So...what's normal?</p></div>
 
+      <div className="Main">
+        <Quiz {...props} />
+      </div>
     </div>
-    </div>
-  )
+  );
+};
 
-}
-
-export default Aggression
+export default Aggression;

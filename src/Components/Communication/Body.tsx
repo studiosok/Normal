@@ -2,7 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Quiz from '../Quiz/QuizBody'
 
-const Body = () => {
+
+const Body = (props) => {
+
+
   return (
     <div className="Container">
       <div id="topBottomMargin">
@@ -10,7 +13,7 @@ const Body = () => {
       </div>
 
     <div className="Main">
-      <Quiz />
+      <Quiz {...props}/>
     </div>
     </div>
   )
