@@ -1,18 +1,18 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
 
+const Question = (props: { data: any }) => {
+  const data = props.data;
 
-const Question = () => {
+console.log('question data', data)
+
   return (
-    <div className="quizQuestion">{}
-     <div className="quizImage">{}</div>
+    <div className="quizImage">
+      <img src={data[0].imageUrl}></img>
+      <div className="quizQuestion">
+        <p>{data[0].question}</p>
+      </div>
     </div>
+  );
+};
 
-  )
-}
-
-// Question.propTypes = {
-//   content: PropTypes.string.isRequired
-// }
-
-export default Question
+export default Question;

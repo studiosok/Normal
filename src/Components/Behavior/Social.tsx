@@ -1,15 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Quiz from '../Quiz/QuizBody';
 
-const Social = () => {
+const Social = (props) => {
   return (
     <div className="Container">
-    <div className="Main">
-      <h3>Socialization, Being Social, All Things Social</h3>
-    </div>
-    </div>
-  )
+      <div id="topBottomMargin">
+        <h3>Socialization, Being Social, All Things Social</h3>
+      </div>
 
-}
+      <div className="Main">
+        <Quiz {...props} />
+      </div>
+    </div>
+  );
+};
 
-export default Social
+export default Social;

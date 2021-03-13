@@ -1,18 +1,25 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
 
+const Resources = (props: { data: any }) => {
+  const data = props.data;
 
-const Resources = () => {
+  let resources = data[0].resources;
+
   return (
-    <div className="quizResources">
-      {}
+    <div>
+      <h4>Further Facts:</h4>
+      <div className="quizResources">
+        {resources.map((resource) => {
+          let id = 0;
+          return (
+            <ul>
+              <li key={id}>{`${resource}`}</li>
+            </ul>
+          );
+        })}
+      </div>
     </div>
+  );
+};
 
-  )
-}
-
-// Resources.propTypes = {
-//   content: PropTypes.string.isRequired
-// }
-
-export default Resources
+export default Resources;
