@@ -10,7 +10,7 @@ body {
     200.96deg,
     #c1c1c1 -20%,
     #5e5e5e 71%,
-    #446319 150%
+    #414141 150%
   );
   font-family: sans-serif;
   overflow-y: hidden;
@@ -21,20 +21,24 @@ body {
 }
 
 button {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   padding: 10px 20px;
   margin: 10px;
   border-radius: 10px;
   border: none;
   appearance: none;
-  font-size: 1.3rem;
-  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
-    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  font-size: 2rem;
+  color: #850a7d;
   transition: transform ease-in 0.1s;
 }
 
 button:hover {
   transform: scale(1.05);
+}
+
+span {
+  color: white;
+  font-size: 1.5rem;
 }
 
 h1 {
