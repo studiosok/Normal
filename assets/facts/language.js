@@ -31,20 +31,20 @@ export default {
         { d: "Aggressive" }
       ],
       correctAnswer: "",
-      imageUrl: "",
+      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
       resources: {}
     },
     {
       id: 4,
-      question: "The image above is a good example of a ______ dog",
+      question: "The images above are a good example of ______ dogs",
       answerOptions: [
         { a: "Happy" },
-        { b: "Unsure" },
+        { b: "Relaxed" },
         { c: "Scared" },
         { d: "Aggressive" }
       ],
-      correctAnswer : "",
-      imageUrl: "",
+      correctAnswer : "b",
+      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
       resources: {}
     },
     {
@@ -57,7 +57,7 @@ export default {
         { d: "Aggressive" }
       ],
       correctAnswer: "",
-      imageUrl: "",
+      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
       resources: {}
     },
     {
@@ -69,7 +69,7 @@ export default {
         { c: "Culturally true but objectively false" }
       ],
       correctAnswer: "c",
-      imageUrl: "",
+      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
       resources: {}
     }
   ]

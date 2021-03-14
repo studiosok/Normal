@@ -6,12 +6,21 @@ import langData from '../../../assets/facts/language';
 import beData from '../../../assets/facts/behavior';
 import trainData from '../../../assets/facts/training';
 
-const Quiz = (props: { location: any; data: any }) => {
+const Quiz = (props: { location: any; data: any; questionId: number }) => {
   let currentLocation = props.location.pathname;
 
   // console.log('props location ', props)
 
   let data = props.data;
+  let max = 6
+
+  const getQuestionId = (max) => {
+    let questionId = Math.floor(Math.random() * Math.floor(max))
+    return questionId
+  }
+
+  let questionId = getQuestionId(max)
+
   // console.log('current location ', currentLocation)
 
   const setData = () => {
@@ -52,9 +61,9 @@ const Quiz = (props: { location: any; data: any }) => {
   return (
 
     <div className="quizBody">
-      <Question  data={data}/>
-      <Answer data={data}/>
-      <Resources data={data}/>
+      <Question  data={data} questionId={questionId}/>
+      <Answer data={data} questionId={questionId}/>
+      <Resources data={data} questionId={questionId}/>
     </div>
   );
 };

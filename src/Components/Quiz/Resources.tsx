@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Resources = (props: { data: any }) => {
+const Resources = (props: { data: any; questionId: number }) => {
   const data = props.data;
+  const questionId = props.questionId
 
+  //need to update resources to match relevent resources
   let resources = data[0].resources;
 
   return (
