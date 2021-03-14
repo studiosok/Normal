@@ -9,7 +9,7 @@ console.log('question data', data)
     <div className="quizImage">
       <img src={data[0].imageUrl}></img>
       <div className="quizQuestion">
-        <p>{data[0].question}</p>
+        <p id="colorText">{data[0].question}</p>
       </div>
     </div>
   );

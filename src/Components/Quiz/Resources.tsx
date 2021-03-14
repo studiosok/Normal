@@ -7,13 +7,13 @@ const Resources = (props: { data: any }) => {
 
   return (
     <div>
-      <h4>Further Facts:</h4>
-      <div className="quizResources">
+      <h4 id="colorText">Further Facts:</h4>
+      <div className="quizResources" >
         {resources.map((resource) => {
           let id = 0;
           return (
             <ul>
-              <li key={id}>{`${resource}`}</li>
+              <li key={id} id="whiteText">{`${resource}`}</li>
             </ul>
           );
         })}
