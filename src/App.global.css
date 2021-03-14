@@ -144,7 +144,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 500px;
+  height: 600px;
   width: 450px;
   border-radius: 10px;
   background-color: #d8dcd8;
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .quizImage {
-  height: 50px;
+  height: 100px;
   width: auto;
 }
 
@@ -176,4 +176,8 @@ a:hover {
 
 .quizAnswer {
   display: flex;
+}
+
+#showAnswer {
+
 }

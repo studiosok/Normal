@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 
-const Answer = (props: { data: any; answer: any }) => {
+const Answer = (props: { data: any; questionId: number }) => {
   const data = props.data;
-  let options = Array.from(data[0].answerOptions);
-  let answer = data[0].correctAnswer;
+  const questionId = props.questionId
+
+
+  let options = Array.from(data[questionId].answerOptions);
+  let answer = data[questionId].correctAnswer;
 
   const [display, setDisplay] = useState("");
 
@@ -16,7 +19,7 @@ const Answer = (props: { data: any; answer: any }) => {
       return display
     }
     let display = (
-      `${`Not quite --> The correct answer was ${answer}. For further information, browse the resources below.`}`
+      `${`Not quite –> The correct answer was ${answer.toUpperCase()}. For further information, browse the resources below.`}`
     );
     setDisplay(display)
     return display;
