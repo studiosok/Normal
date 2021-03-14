@@ -36,6 +36,22 @@ button:hover {
   transform: scale(1.05);
 }
 
+.quizButton {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  appearance: none;
+  font-size: 1rem;
+  color: white;
+  transition: transform ease-in 0.1s;
+}
+
+.quizButton:hover {
+  transform: scale(1.05);
+}
+
 span {
   color: white;
   font-size: 1.5rem;
@@ -48,6 +64,7 @@ h1 {
 
 li {
   list-style: none;
+  color: #850a7d;
 }
 
 a {
@@ -59,6 +76,19 @@ a:hover {
   opacity: 1;
   text-decoration: none;
   cursor: pointer;
+}
+
+#whiteText {
+  color: white;
+}
+
+#colorText {
+  color: #850a7d;
+  font-weight: bold;
+}
+
+#boldText {
+  font-weight: bold;
 }
 
 .Main {
@@ -111,12 +141,17 @@ a:hover {
 }
 
 .quizBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 500px;
   width: 450px;
   border-radius: 10px;
   background-color: #d8dcd8;
   border: 1px solid #850a7d;
   position: absolute;
+  padding: 30px;
+
 }
 
 .quizQuestion {
@@ -137,4 +172,8 @@ a:hover {
   height: 50px;
   overflow-y: scroll;
   white-space: nowrap;
+}
+
+.quizAnswer {
+  display: flex;
 }
