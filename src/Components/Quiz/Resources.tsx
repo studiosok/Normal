@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const Resources = (props: { data: any; questionId: number }) => {
   const data = props.data;
@@ -15,7 +16,7 @@ const Resources = (props: { data: any; questionId: number }) => {
           let id = 0;
           return (
             <ul>
-              <li key={id} id="whiteText">{`${resource}`}</li>
+              <li key={id} id="whiteText"><Link to={resource.url}>{`${resource.name}`}</Link></li>
             </ul>
           );
         })}

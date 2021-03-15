@@ -1,30 +1,22 @@
 import React from 'react';
-import Quiz from '../Quiz/QuizBody'
-
-
-
+import Quiz from '../Quiz/QuizBody';
 
 const Body = (props) => {
-
-
-const changeQuestionId = () => {
-
-}
-
   return (
     <div>
-    <div className="Container">
-      <div id="topBottomMargin">
-        <h3>The Whole Body</h3>
-      </div>
-      <div className="Main">
-       <Quiz {...props}/>
+      <div className="Container">
+        <div id="topBottomMargin">
+          <h2>Body Talk</h2>
+          <div>
+        <p>~Summary text about body language in dogs~</p>
+        </div>
+        </div>
+        <div className="Main">
+          <Quiz {...props} />
+        </div>
       </div>
     </div>
+  );
+};
 
-    </div>
-  )
-
-}
-
-export default Body
+export default Body;

@@ -11,7 +11,7 @@ export default {
       ],
       correctAnswer: "a",
       imageUrl: "https://i.ibb.co/LRTWwL1/2013-05-06-16-49-18.jpg",
-      resources: ["Body language details: Doggone Safe", "something something", "other thing", "other sciency thing", "other thing", "etc"]
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ export default {
       answerOptions: [{ "a": "True" }, { "b": "False" }, { "c": "Neither" }],
       correctAnswer: "b",
       imageUrl: "https://i.ibb.co/LRTWwL1/2013-05-06-16-49-18.jpg",
-      resources: {}
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ export default {
       ],
       correctAnswer: "d",
       imageUrl: "https://i.ibb.co/wgkPTqB/2013-03-28-14-12-44.jpg",
-      resources: {}
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ export default {
       ],
       correctAnswer : "b",
       imageUrl: "https://i.ibb.co/WtRKMBf/2012-06-30-16-10-09.jpg",
-      resources: {}
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ export default {
       ],
       correctAnswer: "d",
       imageUrl: "https://i.ibb.co/XkXmrjZ/IMG-9322.jpg",
-      resources: {}
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 6,
@@ -70,11 +70,11 @@ export default {
       ],
       correctAnswer: "c",
       imageUrl: "https://i.ibb.co/H2wyRvQ/2012-10-18-16-05-12.jpg",
-      resources: {}
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 7,
-      question: "The image above is a good example of a an appropriate dog-dog interaction",
+      question: "The image above is a good example of an appropriate dog-dog interaction",
       answerOptions: [
         { a: "True" },
         { b: "False" },
@@ -83,7 +83,7 @@ export default {
       ],
       correctAnswer: "a",
       imageUrl: "https://i.ibb.co/QjCN4ss/2013-03-31-15-45-03.jpg",
-      resources: {}
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 8,
@@ -96,7 +96,7 @@ export default {
       ],
       correctAnswer: "d",
       imageUrl: "https://i.ibb.co/37t3Pw2/2013-01-08-16-23-26.jpg",
-      resources: {}
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 9,
@@ -109,7 +109,7 @@ export default {
       ],
       correctAnswer: "b",
       imageUrl: "https://i.ibb.co/hywQrHZ/IMG-5316.jpg",
-      resources: {}
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 10,
@@ -122,7 +122,7 @@ export default {
       ],
       correctAnswer: "a",
       imageUrl: "https://i.ibb.co/2tWS3TL/2013-04-16-15-10-15.jpg",
-      resources: {}
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     }
 
   ]

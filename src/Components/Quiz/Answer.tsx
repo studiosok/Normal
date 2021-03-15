@@ -1,29 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Answer = (props: { data: any; questionId: number }) => {
   const data = props.data;
-  const questionId = props.questionId
-
+  const questionId = props.questionId;
 
   let options = Array.from(data[questionId].answerOptions);
   let answer = data[questionId].correctAnswer;
 
-  const [display, setDisplay] = useState("");
+  const [display, setDisplay] = useState('...');
 
   const handleAnswer = (e) => {
     if (e.target.value === answer) {
-      let display = (
-          "Correct! For further information, browse the resources below."
-      );
-      setDisplay(display)
-      return display
+      let display =
+        'Correct! For further information, browse the resources below.';
+      setDisplay(display);
+      return display;
     }
-    let display = (
-      `${`Not quite –> The correct answer was ${answer.toUpperCase()}. For further information, browse the resources below.`}`
-    );
-    setDisplay(display)
+    let display = `${`Not quite –> The correct answer was ${answer.toUpperCase()}. For further information, browse the resources below.`}`;
+    setDisplay(display);
     return display;
   };
+
+  useEffect(() => {
+    setDisplay('...')
+  }, [questionId])
 
   return (
     <div>
@@ -45,7 +45,7 @@ const Answer = (props: { data: any; questionId: number }) => {
           );
         })}
       </div>
-      {display && <div id='showAnswer'>{display}</div> }
+      {display !== "..." && <div id="showAnswer">{display}</div>}
     </div>
   );
 };

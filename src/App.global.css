@@ -40,6 +40,9 @@ button:hover {
   font-size: 2rem;
   color: #850a7d;
   transition: transform ease-in 0.1s;
+  position: fixed;
+  bottom: 40%;
+  right: 10%;
 }
 
 .nextArrow:hover {
@@ -48,8 +51,8 @@ button:hover {
 
 .quizButton {
   background-color: rgba(255, 255, 255, 0);
-  padding: 10px 20px;
-  margin: 10px;
+  padding: 5px 20px;
+  margin: 5px;
   border-radius: 10px;
   border: none;
   appearance: none;
@@ -70,6 +73,7 @@ span {
 h1 {
   margin: 10px;
   text-decoration: underline overline #850a7d;
+  font-size: 5em;
 }
 
 li {
@@ -113,18 +117,22 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: 50px 0;
+  position: absolute;
+  right: 48%;
 }
 
 .Container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 800px;
+  height: 900px;
+  z-index: 1;
 }
 
 #topBottomMargin {
   margin-top: 50px;
   margin-bottom: 10px;
+
 }
 
 .navbarContainer {
@@ -132,6 +140,9 @@ a:hover {
   height: 30px;
   text-align: center;
   align-self: flex-start;
+  position: absolute;
+  right: 0%;
+  top: 5%;
 }
 
 .navbarContainer:hover {
@@ -142,10 +153,12 @@ a:hover {
 
 .navLink {
   line-height: 2em;
+  font-size: 2em;
 }
 
 .scrollMenu {
-  height: 30px;
+  height: 50px;
+  margin-left: 10px;
   overflow-y: scroll;
   white-space: nowrap;
 }
@@ -159,6 +172,7 @@ a:hover {
   border-radius: 10px;
   background-color: #d8dcd8;
   border: 1px solid #850a7d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: absolute;
   padding: 30px;
 
@@ -174,8 +188,10 @@ a:hover {
 }
 
 .quizImage {
-  height: 130px;
+  height: 180px;
   width: auto;
+  position: relative;
+  right: -18%
 }
 
 .quizResources {

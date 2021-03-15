@@ -1,20 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Quiz from '../Quiz/QuizBody'
+import Quiz from '../Quiz/QuizBody';
 
 const Tail = (props) => {
   return (
     <div className="Container">
       <div id="topBottomMargin">
-      <h3>Tail Talk</h3>
+        <h2>Tail Talk</h2>
+        <div>
+        <p>~Summary text about body language specifically related to the tail~</p>
+        </div>
       </div>
 
-    <div className="Main">
-      <Quiz {...props}/>
+      <div className="Main">
+        <Quiz {...props} />
+      </div>
     </div>
-    </div>
-  )
+  );
+};
 
-}
-
-export default Tail
+export default Tail;

@@ -1,20 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Quiz from '../Quiz/QuizBody'
+import Quiz from '../Quiz/QuizBody';
 
-const Guard = () => {
+const Guard = (props) => {
   return (
     <div className="Container">
       <div id="topBottomMargin">
-      <h3>Mine: Resource Guarding</h3>
+        <h2>Resource Guarding</h2>
+        <div>
+        <p>~Summary text about resource guarding in dogs~</p>
+        </div>
       </div>
 
-    <div className="Main">
-      <Quiz {...props}/>
+      <div className="Main">
+        <Quiz {...props} />
+      </div>
     </div>
-    </div>
-  )
+  );
+};
 
-}
-
-export default Guard
+export default Guard;

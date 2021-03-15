@@ -1,12 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Quiz from '../Quiz/QuizBody';
 
 const Tools = (props) => {
   return (
     <div className="Container">
       <div id="topBottomMargin">
-        <h3>{'Tools & Training'}</h3>
+        <h2>{'Tools & Training'}</h2>
+        <div>
+        <p>~Summary text about various tools used in training dogs~</p>
+        </div>
       </div>
 
       <div className="Main">

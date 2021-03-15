@@ -1,20 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Quiz from '../Quiz/QuizBody'
+import Quiz from '../Quiz/QuizBody';
 
 const Lima = (props) => {
   return (
     <div className="Container">
-    <div id="topBottomMargin">
-    <h3>The Humane Hierarchy</h3>
+      <div id="topBottomMargin">
+        <h2>The Hierarchy</h2>
+        <div>
+        <p>~Summary text about LIMA and the humane hierarchy~</p>
+        </div>
+      </div>
+
+
+      <div className="Main">
+        <Quiz {...props} />
+      </div>
     </div>
+  );
+};
 
-  <div className="Main">
-    <Quiz {...props}/>
-  </div>
-  </div>
-  )
-
-}
-
-export default Lima
+export default Lima;
