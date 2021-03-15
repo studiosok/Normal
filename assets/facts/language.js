@@ -23,28 +23,28 @@ export default {
     },
     {
       id: 3,
-      question: "The image above is a good example of a ______ dog",
+      question: "The image above is a good example of a dog offering a play bow, which is... ",
       answerOptions: [
-        { a: "Happy" },
-        { b: "Unsure" },
-        { c: "Scared" },
-        { d: "Aggressive" }
+        { a: "A sign of comfort" },
+        { b: "An invitation to play" },
+        { c: "An invitation to interact" },
+        { d: "Both B and C" }
       ],
-      correctAnswer: "",
-      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
+      correctAnswer: "d",
+      imageUrl: "https://i.ibb.co/wgkPTqB/2013-03-28-14-12-44.jpg",
       resources: {}
     },
     {
       id: 4,
       question: "The images above are a good example of ______ dogs",
       answerOptions: [
-        { a: "Happy" },
-        { b: "Relaxed" },
+        { a: "Tired" },
+        { b: "Anxious" },
         { c: "Scared" },
         { d: "Aggressive" }
       ],
       correctAnswer : "b",
-      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
+      imageUrl: "https://i.ibb.co/WtRKMBf/2012-06-30-16-10-09.jpg",
       resources: {}
     },
     {
@@ -54,10 +54,10 @@ export default {
         { a: "Happy" },
         { b: "Unsure" },
         { c: "Scared" },
-        { d: "Aggressive" }
+        { d: "Tense" }
       ],
-      correctAnswer: "",
-      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
+      correctAnswer: "d",
+      imageUrl: "https://i.ibb.co/XkXmrjZ/IMG-9322.jpg",
       resources: {}
     },
     {
@@ -69,7 +69,7 @@ export default {
         { c: "Culturally true but objectively false" }
       ],
       correctAnswer: "c",
-      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
+      imageUrl: "https://i.ibb.co/H2wyRvQ/2012-10-18-16-05-12.jpg",
       resources: {}
     }
   ]

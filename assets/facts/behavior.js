@@ -23,23 +23,23 @@ export default {
     },
     {
       id: 3,
-      question: "The image above is a good example of a ______ dog",
+      question: "If a dog is wearing a muzzle, they are a dangerous dog",
       answerOptions: [
-        { a: "Happy" },
-        { b: "Unsure" },
-        { c: "Scared" },
-        { d: "Aggressive" }
+        { a: "True" },
+        { b: "False" },
+        { c: "Usually True" },
+        { d: "Even more True" }
       ],
-      correctAnswer: "",
-      imageUrl: "",
+      correctAnswer: "b",
+      imageUrl: "https://i.ibb.co/hd7LBq9/Muzzle.jpg",
       resources: {}
     },
     {
       id: 4,
       question: "The image above is a good example of a ______ dog",
       answerOptions: [
-        { a: "Happy" },
-        { b: "Unsure" },
+        { a: "Tired" },
+        { b: "Anxious" },
         { c: "Scared" },
         { d: "Aggressive" }
       ],
