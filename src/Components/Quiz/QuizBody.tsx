@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Question from './Question';
 import Answer from './Answer';
 import Resources from './Resources';
-import Next from './Next'
 import langData from '../../../assets/facts/language';
 import beData from '../../../assets/facts/behavior';
 import trainData from '../../../assets/facts/training';
@@ -15,20 +14,10 @@ const Quiz = (props: { location: any; data: any; questionId: number }) => {
   let questionId = props.questionId || 1
   const [id, setId] = useState(1)
 
-  // let max = 6
-
-  // const getQuestionId = (max) => {
-  //   let questionId = Math.floor(Math.random() * Math.floor(max))
-  //   return questionId
-  // }
-
-    console.log('data', langData.data)
-
-    let dataLength = 4
+    let dataLength = 9
 
   const updateQuestion = () => {
-    console.log('inside update question', id, 'question id', questionId)
-    if(id <= dataLength) {
+    if(id < dataLength) {
       questionId = id + 1
      setId(questionId)
       return questionId
@@ -37,21 +26,10 @@ const Quiz = (props: { location: any; data: any; questionId: number }) => {
     setId(questionId)
     return questionId
   }
-  console.log('questionid', questionId)
 
   useEffect(() => {
     setId(id)
-    console.log('next use effect ran')
   },[questionId])
-
-  // let questionId = getQuestionId(max)
-
-
-  // useEffect(()=> {
-  //   console.log('use effect ran')
-  // }, [questionId])
-
-  // console.log('current location ', currentLocation)
 
   const setData = () => {
     switch (currentLocation) {
@@ -97,7 +75,6 @@ const Quiz = (props: { location: any; data: any; questionId: number }) => {
       <Question  data={data} questionId={id}/>
       <Answer data={data} questionId={id}/>
       <Resources data={data} questionId={id}/>
-      {/* <Next questionId={questionId}/> */}
     </div>
     </div>
   );

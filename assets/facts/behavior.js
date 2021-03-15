@@ -10,7 +10,7 @@ export default {
         { d: "Fear" }
       ],
       correctAnswer: "a",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/LJgGdjz/2013-03-12-14-52-24.jpg",
       resources: ["Body language details: Doggone Safe", "something something", "other thing", "other sciency thing", "other thing", "etc"]
     },
     {
@@ -18,7 +18,7 @@ export default {
       question: "A dog who growls is aggressive and should be corrected",
       answerOptions: [{ "a": "True" }, { "b": "False" }, { "c": "Neither" }],
       correctAnswer: "b",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/5rwnVJ7/2012-09-17-15-37-49.jpg",
       resources: {}
     },
     {
@@ -44,7 +44,7 @@ export default {
         { d: "Aggressive" }
       ],
       correctAnswer : "",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/LRTWwL1/2013-05-06-16-49-18.jpg",
       resources: {}
     },
     {
@@ -57,7 +57,7 @@ export default {
         { d: "Aggressive" }
       ],
       correctAnswer: "",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/LRTWwL1/2013-05-06-16-49-18.jpg",
       resources: {}
     },
     {
@@ -66,10 +66,63 @@ export default {
       answerOptions: [
         { a: "Definitely true" },
         { b: "False" },
-        { c: "Culturally true but objectively false" }
+        { c: "Scared" },
+        { d: "Aggressive" }
       ],
       correctAnswer: "c",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/LRTWwL1/2013-05-06-16-49-18.jpg",
+      resources: {}
+    },
+    {
+      id: 7,
+      question: "What might the body language of both the dogs in the above picture indicate?",
+      answerOptions: [
+        { a: "Tension" },
+        { b: "Uncertainty" },
+        { c: "Aggression" },
+        { d: "Both A and B" }
+      ],
+      correctAnswer: "d",
+      imageUrl: "https://i.ibb.co/GPN81b3/2013-02-28-16-38-20.jpg",
+      resources: {}
+    },
+    {
+      id: 8,
+      question: "TBD",
+      answerOptions: [
+        { a: "Definitely true" },
+        { b: "False" },
+        { c: "Scared" },
+        { d: "Aggressive" }
+      ],
+      correctAnswer: "c",
+      imageUrl: "https://i.ibb.co/LRTWwL1/2013-05-06-16-49-18.jpg",
+      resources: {}
+    },
+    {
+      id: 9,
+      question: "TBD",
+      answerOptions: [
+        { a: "Definitely true" },
+        { b: "False" },
+        { c: "Scared" },
+        { d: "Aggressive" }
+      ],
+      correctAnswer: "c",
+      imageUrl: "https://i.ibb.co/LRTWwL1/2013-05-06-16-49-18.jpg",
+      resources: {}
+    },
+    {
+      id: 10,
+      question: "TBD",
+      answerOptions: [
+        { a: "Definitely true" },
+        { b: "False" },
+        { c: "Scared" },
+        { d: "Aggressive" }
+      ],
+      correctAnswer: "c",
+      imageUrl: "https://i.ibb.co/LRTWwL1/2013-05-06-16-49-18.jpg",
       resources: {}
     }
   ]
