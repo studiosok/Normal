@@ -11,19 +11,19 @@ export default {
       ],
       correctAnswer: "a",
       imageUrl: "https://i.ibb.co/LJgGdjz/2013-03-12-14-52-24.jpg",
-      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "Whole Dog Journal", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 2,
-      question: "A dog who growls is aggressive and should be corrected",
-      answerOptions: [{ "a": "True" }, { "b": "False" }, { "c": "Neither" }],
+      question: "Growling is simply a form of communication.",
+      answerOptions: [{ "a": "False" }, { "b": "True" }, { "c": "Neither" }],
       correctAnswer: "b",
       imageUrl: "https://i.ibb.co/5rwnVJ7/2012-09-17-15-37-49.jpg",
       resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 3,
-      question: "If a dog is wearing a muzzle, they are a dangerous dog",
+      question: "Feeding a raw fed diet will make your dog aggressive",
       answerOptions: [
         { a: "True" },
         { b: "False" },
@@ -32,7 +32,7 @@ export default {
       ],
       correctAnswer: "b",
       imageUrl: "https://i.ibb.co/hd7LBq9/Muzzle.jpg",
-      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
+      resources: [{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "Dogs Naturally", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"},{name: "AVSAB", url:"https://avsab.org/wp-content/uploads/2019/01/Dominance_Position_Statement-download.pdf"}]
     },
     {
       id: 4,
