@@ -36,6 +36,16 @@ button:hover {
   transform: scale(1.05);
 }
 
+.nextArrow {
+  font-size: 2rem;
+  color: #850a7d;
+  transition: transform ease-in 0.1s;
+}
+
+.nextArrow:hover {
+  transform: scale(1.05);
+}
+
 .quizButton {
   background-color: rgba(255, 255, 255, 0);
   padding: 10px 20px;
@@ -164,7 +174,7 @@ a:hover {
 }
 
 .quizImage {
-  height: 100px;
+  height: 130px;
   width: auto;
 }
 
@@ -176,8 +186,4 @@ a:hover {
 
 .quizAnswer {
   display: flex;
-}
-
-#showAnswer {
-
 }

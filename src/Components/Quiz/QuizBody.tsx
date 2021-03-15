@@ -1,27 +1,35 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Question from './Question';
 import Answer from './Answer';
 import Resources from './Resources';
 import langData from '../../../assets/facts/language';
 import beData from '../../../assets/facts/behavior';
 import trainData from '../../../assets/facts/training';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+
 
 const Quiz = (props: { location: any; data: any; questionId: number }) => {
   let currentLocation = props.location.pathname;
-
-  // console.log('props location ', props)
-
   let data = props.data;
-  let max = 6
+  let questionId = props.questionId || 1
+  const [id, setId] = useState(1)
 
-  const getQuestionId = (max) => {
-    let questionId = Math.floor(Math.random() * Math.floor(max))
+    let dataLength = 9
+
+  const updateQuestion = () => {
+    if(id < dataLength) {
+      questionId = id + 1
+     setId(questionId)
+      return questionId
+    }
+    questionId = id - 1
+    setId(questionId)
     return questionId
   }
 
-  let questionId = getQuestionId(max)
-
-  // console.log('current location ', currentLocation)
+  useEffect(() => {
+    setId(id)
+  },[questionId])
 
   const setData = () => {
     switch (currentLocation) {
@@ -59,11 +67,15 @@ const Quiz = (props: { location: any; data: any; questionId: number }) => {
   setData()
 
   return (
-
+    <div>
+    <div>
+       <button className="nextArrow" onClick={updateQuestion}>{<ArrowForwardIosIcon></ArrowForwardIosIcon>}</button>
+    </div>
     <div className="quizBody">
-      <Question  data={data} questionId={questionId}/>
-      <Answer data={data} questionId={questionId}/>
-      <Resources data={data} questionId={questionId}/>
+      <Question  data={data} questionId={id}/>
+      <Answer data={data} questionId={id}/>
+      <Resources data={data} questionId={id}/>
+    </div>
     </div>
   );
 };

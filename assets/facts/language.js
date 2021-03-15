@@ -10,7 +10,7 @@ export default {
         { d: "Wants to say hi" }
       ],
       correctAnswer: "a",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/LRTWwL1/2013-05-06-16-49-18.jpg",
       resources: ["Body language details: Doggone Safe", "something something", "other thing", "other sciency thing", "other thing", "etc"]
     },
     {
@@ -18,33 +18,33 @@ export default {
       question: "A dog who growls is aggressive and should be corrected",
       answerOptions: [{ "a": "True" }, { "b": "False" }, { "c": "Neither" }],
       correctAnswer: "b",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/LRTWwL1/2013-05-06-16-49-18.jpg",
       resources: {}
     },
     {
       id: 3,
-      question: "The image above is a good example of a ______ dog",
+      question: "The image above is a good example of a dog offering a play bow, which is... ",
       answerOptions: [
-        { a: "Happy" },
-        { b: "Unsure" },
-        { c: "Scared" },
-        { d: "Aggressive" }
+        { a: "A sign of comfort" },
+        { b: "An invitation to play" },
+        { c: "An invitation to interact" },
+        { d: "Both B and C" }
       ],
-      correctAnswer: "",
-      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
+      correctAnswer: "d",
+      imageUrl: "https://i.ibb.co/wgkPTqB/2013-03-28-14-12-44.jpg",
       resources: {}
     },
     {
       id: 4,
       question: "The images above are a good example of ______ dogs",
       answerOptions: [
-        { a: "Happy" },
-        { b: "Relaxed" },
+        { a: "Tired" },
+        { b: "Anxious" },
         { c: "Scared" },
         { d: "Aggressive" }
       ],
       correctAnswer : "b",
-      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
+      imageUrl: "https://i.ibb.co/WtRKMBf/2012-06-30-16-10-09.jpg",
       resources: {}
     },
     {
@@ -54,10 +54,10 @@ export default {
         { a: "Happy" },
         { b: "Unsure" },
         { c: "Scared" },
-        { d: "Aggressive" }
+        { d: "Tense" }
       ],
-      correctAnswer: "",
-      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
+      correctAnswer: "d",
+      imageUrl: "https://i.ibb.co/XkXmrjZ/IMG-9322.jpg",
       resources: {}
     },
     {
@@ -69,9 +69,62 @@ export default {
         { c: "Culturally true but objectively false" }
       ],
       correctAnswer: "c",
-      imageUrl: "https://centerforshelterdogs.tufts.edu/wp-content/uploads/2016/03/Relaxed.jpg",
+      imageUrl: "https://i.ibb.co/H2wyRvQ/2012-10-18-16-05-12.jpg",
+      resources: {}
+    },
+    {
+      id: 7,
+      question: "The image above is a good example of a an appropriate dog-dog interaction",
+      answerOptions: [
+        { a: "True" },
+        { b: "False" },
+        { c: "Definitely false" },
+        { d: "Even more false than C" }
+      ],
+      correctAnswer: "a",
+      imageUrl: "https://i.ibb.co/QjCN4ss/2013-03-31-15-45-03.jpg",
+      resources: {}
+    },
+    {
+      id: 8,
+      question: "What might the larger dog's tail be indicating in the above image?",
+      answerOptions: [
+        { a: "Desire to play" },
+        { b: "Uncertainty" },
+        { c: "Tension" },
+        { d: "Both B and C" }
+      ],
+      correctAnswer: "d",
+      imageUrl: "https://i.ibb.co/37t3Pw2/2013-01-08-16-23-26.jpg",
+      resources: {}
+    },
+    {
+      id: 9,
+      question: "The image above is a good example of a ______ dog",
+      answerOptions: [
+        { a: "Dominant" },
+        { b: "Looking to Engage" },
+        { c: "Happy" },
+        { d: "Relaxed" }
+      ],
+      correctAnswer: "b",
+      imageUrl: "https://i.ibb.co/hywQrHZ/IMG-5316.jpg",
+      resources: {}
+    },
+    {
+      id: 10,
+      question: "The image above is a good example of a ______ dog",
+      answerOptions: [
+        { a: "Happy" },
+        { b: "Unsure" },
+        { c: "Scared" },
+        { d: "Tense" }
+      ],
+      correctAnswer: "a",
+      imageUrl: "https://i.ibb.co/2tWS3TL/2013-04-16-15-10-15.jpg",
       resources: {}
     }
+
   ]
 }
 
